@@ -1,0 +1,37 @@
+ROTEIRO 
+
+EU Raphael Olimpio Dias Estou contratando a Stark SA, para desenvolver um projeto de melhoria para o sistema de controle de vagas disponiveis do meu estacionamento, atualmente possuo sensores nos quais conseguem indicar se a vaga esta ou não ocupada, esse sistema eu possuo em diversos shoppings e mercados onde gerencio, porem procuro algo inovador para meus clientes, quero que alem do sensor identificar o numero de vagas disponiveis e representa-los por meios numerico, que seja mostrada a planta do estacionamento com suas respectivas vagas disponiveis logo na entrada de cada setor, como é um projeto de melhoria, procuro algo para ser implementado no maximo em 30 dias e o investimento nao pode ultrapassar "n dinheirinhos"
+
+---------------------
+
+Eu Raphael Olimpio Dias, representando a Stack SA e como product owner, tendo ciencia desse projeto convoquei uma reunião com a gerente de projetos e scrum master, Yasmin Starke, que trouxe com ela a equipe de desenvolvimento devidamente qualificada para esse projeto.
+
+
+-------------------------------------------------------------
+--------------------------------------------------------------
+-----------------------------------------------------------------
+----------------------------------------------------------------
+--------------------------------------------------------------
+
+Médoto a seguir:
+
+O modelo de gerenciamento de software em Agile Scrum é baseado em uma metodologia ágil que visa desenvolver software de forma iterativa e incremental. O Scrum é uma das abordagens mais populares dentro do Agile Scrum, onde os projetos são divididos em sprints, que são períodos de tempo fixos, normalmente de duas a quatro semanas.
+
+Nesse modelo, temos os seguintes personagens:
+
+Product Owner: Raphael Olimpio Dias
+Scrum Master: Yasmin Stark
+Equipe de desenvolvimento: AnaThiare(programadora), Andressa(analista), Ceo Oracle(Analista)
+O Product Owner é o responsável por definir as prioridades do projeto, garantindo que o software entregue atenda às necessidades do cliente. Ele também é responsável por manter o backlog do produto atualizado e comunicar a equipe sobre as mudanças necessárias.
+
+O Scrum Master é o responsável por garantir que a equipe esteja seguindo a metodologia Scrum corretamente, removendo impedimentos e mantendo a equipe motivada. Ele também é responsável por garantir que as reuniões do Scrum, como a Daily Scrum, a Sprint Review e a Sprint Retrospective, sejam realizadas corretamente.
+
+A equipe de desenvolvimento é composta por AnaThiare(programadora), Andressa(analista) e Ceo Oracle(Analista). Eles são responsáveis por desenvolver o software, seguindo as prioridades definidas pelo Product Owner. A equipe deve ser auto-organizada e multidisciplinar, garantindo que todas as habilidades necessárias para o projeto estejam disponíveis.
+
+O processo começa com o Product Owner definindo as prioridades do backlog do produto e comunicando essas prioridades para a equipe de desenvolvimento. A equipe de desenvolvimento, em seguida, planeja a Sprint, definindo quais itens do backlog do produto serão desenvolvidos na Sprint.
+
+Durante a Sprint, a equipe de desenvolvimento trabalha para desenvolver os itens do backlog do produto selecionados. Eles se reúnem diariamente na Daily Scrum para sincronizar o trabalho e discutir impedimentos.
+
+No final da Sprint, a equipe realiza a Sprint Review, onde o Product Owner avalia o trabalho realizado e dá feedback para a equipe. A equipe também realiza a Sprint Retrospective, onde eles discutem o que funcionou bem na Sprint e o que pode ser melhorado para a próxima.
+
+Esse modelo de gerenciamento de software em Agile Scrum é altamente colaborativo, permitindo que a equipe de desenvolvimento trabalhe em conjunto com o Product Owner para desenvolver software que atenda às necessidades do cliente de forma eficiente e eficaz.
