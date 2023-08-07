@@ -23,7 +23,6 @@ def case_primavera():
 def case_outono():
     return "O outono é sempre igual, as floques caem no quintal"
 
-
 def switch_case_example(argument):
     switcher = {
         1: case_primavera,
