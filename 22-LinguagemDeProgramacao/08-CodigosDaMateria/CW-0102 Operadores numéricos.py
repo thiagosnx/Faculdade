@@ -13,3 +13,4 @@ print(f"Resultado em operacao_01 = {operacao_01}")
 print(f"Resultado em operacao_02 = {operacao_02}")
 print(f"Resultado em operacao_03 = {operacao_03}")
 print(f"Resultado em operacao_04 = {operacao_04}")
+

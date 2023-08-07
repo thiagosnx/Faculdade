@@ -6,4 +6,5 @@ print(10)
 # inteiro
 print(3.141592)
 # float
-
+print(False) # ou True
+# Boolean
