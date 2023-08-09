@@ -10,4 +10,4 @@ elif codigo_compra == 5444:
     print("Compra a prazo no cartão.")
 else:
     print("Codigo não cadastrado")
-    
+
