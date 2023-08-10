@@ -1,10 +1,15 @@
 # Variáveis e tipos básicos -------------------------------------------------------
+a = "olá"
+b = 10
+c = 3.141592
+d = False
 
-print('olá')
+print(a)
 # string
-print(10)
+print(b)
 # inteiro
-print(3.141592)
+print(c)
 # float
-print(False) # ou True
+print(d) # ou True
 # Boolean
+
