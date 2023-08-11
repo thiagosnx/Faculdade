@@ -12,8 +12,11 @@ vogais2.append('i')
 vogais2.append('o')
 vogais2.append('u')
 
+
 #Para acessar o valor guardado em uma lista, basta indicar o nome da variável e, 
 # entre colchetes, a posição do elemento, ou a fatia (slice) de valores que se deseja:
 
 vogais2[3]
 vogais2[3:]
+
+print(vogais2)

@@ -1,4 +1,4 @@
-'''m Python, as funções anônimas são definidas utilizando a expressão lambda. 
+'''Em Python, as funções anônimas são definidas utilizando a expressão lambda. 
 Essas funções não possuem um nome atribuído e geralmente são utilizadas quando 
 é necessário uma função simples que será usada apenas em um contexto específico. 
 Abaixo estão alguns exemplos de funções anônimas em Python:'''

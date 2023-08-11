@@ -17,14 +17,17 @@ def busca_binaria(lista, elemento):
     
         while minimo <= maximo and not encontrado:
             meio_lista = (minimo + maximo)//2
+            print(meio_lista)
             if lista[meio_lista] == elemento:
                 encontrado = True
             else:
                 if elemento < lista[meio_lista]:
                     maximo = meio_lista-1
+                    print(maximo)
                 else:
                     minimo = meio_lista+1
-    
+                    print(minimo)
+                    
         return encontrado
     
 testelista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]

@@ -1,15 +1,18 @@
-bicicleta_andando = False 
+def executar_selection_sort(lista):
+    n = len(lista)
+    print(n) 
 
-contador = 0
+    for i in range(0, n):
+        index_menor = i
+        for j in range(i+1, n):
+            if lista[j] < lista[index_menor]:
+                index_menor = j
+        lista[i], lista[index_menor] = lista[index_menor], lista[i]
+    return lista
 
-while contador < 2:
-    if bicicleta_andando:
-        print("Pedala.")
-        bicicleta_andando = True
-    else:
-        print("Pedala.")
-        bicicleta_andando = False
-    
-    contador += 1  # Incrementa o contador
+print('-♥'*20)
 
-print("Duas pedaladas escapa a correia.")
+lista = [10, 9, 5, 8, 11, -1, 3]
+executar_selection_sort(lista)   # Essa linha usa o print da linha 3 e exibe o numero 
+resultado = executar_selection_sort(lista) # Essa linha pega o que a linha de cima faz e armazena na variavel
+print(resultado) # Essa linha printa o resultado que a de cima armazenou 

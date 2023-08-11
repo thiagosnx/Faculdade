@@ -12,3 +12,4 @@ def insertion_sort(arr):
 array = [12, 11, 13, 5, 6]
 insertion_sort(array)
 print("Array ordenado:", array)
+

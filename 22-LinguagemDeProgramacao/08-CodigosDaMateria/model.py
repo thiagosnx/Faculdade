@@ -1,16 +1,32 @@
-# nome = input("Digite seu nome: ")
-# peso = input("Digite seu peso: ").replace(',', '.')
-# altura = input("Digite sua altura em Cm: ")
-# alturaMetros = float(altura) / 100
-# imc = float(peso) / (float(alturaMetros) * float(alturaMetros))
-# if imc < 18.49:
-#     print(f'{nome}, seu IMC e: {imc:.2f}, Seu IMC esta abaixo do peso')
-# elif imc >= 18.5 or imc <= 24.5:
-#     print(f'{nome}, seu IMC e: {imc:.2f}, Seu IMC esta normal')
-# else:
-#     print(f'{nome}, seu IMC e: {imc:.2f},Seu IMC esta acima do peso')
-# print("Parabens por se preocupar com sua saude",nome)
+def busca_binaria(lista, elemento):
+  minimo = 0
+  maximo = len(lista) - 1
+  encontrado = False
+  indices = []
 
-lista = [1 ,2 ,3 ,4 ,5]      # Criei uma Lista com 5 numeros
-tamanhoDaLista = len(lista)  # O len vai contar os itens da lista
-print(tamanhoDaLista)        # Faz o Print do que o len contou
+  while minimo <= maximo and not encontrado:
+    meio_lista = (minimo + maximo) // 2
+    indices.append(meio_lista)
+    if lista[meio_lista] == elemento:
+      encontrado = True
+    else:
+      if elemento < lista[meio_lista]:
+        maximo = meio_lista - 1
+      else:
+        minimo = meio_lista + 1
+
+  return encontrado, indices
+
+
+def imprime_indices(indices):
+  for i in indices:
+    print(i)
+
+
+testelista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+encontrado, indices = busca_binaria(testelista, 1)
+if encontrado:
+  print("Elemento encontrado!")
+else:
+  print("Elemento não encontrado.")
+imprime_indices(indices)
