@@ -1,22 +1,19 @@
-import pandas as pd
-# importa bibliotecas e voce pode usar um alias para abreviar a biblioteca
-# como por exemplo "pandas as pd"
-dataFrame = {
-    'Survived': [0, 1, 1, 1, 0],
-    'Pclass': [3, 1, 3, 1, 3],
-    'Name': ['Mr. Owen Harris Braund',
-             'Mrs. John Bradley (Florence Briggs Thayer Cumings)',
-             'Miss. Laina Heikkinen',
-             'Mrs Jacques Heath (Lily May Peel) Futrelle',
-             'Mr. William Henry Allen'],
-    'Sex': ['male', 'female', 'female', 'female', 'male'],
-    'Age': [22.0, 38.0, 26.0, 35.0, 35.0],
-    'Siblings/Spouses Aboard': [1, 1, 0, 1, 0],
-    'Parents/Children Aboard': [0, 0, 0, 0, 0],
-    'Fare': [7.2500, 71.2833, 7.9250, 53.1000, 8.0500]
-}
-df_titanic = pd.DataFrame(dataFrame)
-print(df_titanic)
+class minhaCasa: #"class" para indicar a criação de uma classe, seguida do nome e de dois pontos
+    altura = None      # No bloco indentado devem ser implementados os atributos e métodos da classe.
+     
+    def corParede(self, cor):
+         self.cor = cor
+    def quartos(self, quarto):
+         self.quarto = quarto
 
-homensnotitanic = df_titanic['male']
-print(homensnotitanic)
+
+
+# Os atributos e os métodos de uma classe podem ser acessados pelo objeto, 
+# colocando o nome deste seguido de ponto; 
+
+objeto1 = minhaCasa()
+objeto1.cor = "cobre"
+objeto1.quarto = 1
+ 
+print(objeto1.cor)
+

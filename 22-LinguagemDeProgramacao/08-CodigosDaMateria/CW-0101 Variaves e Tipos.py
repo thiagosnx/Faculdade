@@ -4,7 +4,7 @@ b = 10
 c = 3.141592
 d = False
 
-print(a)
+print(type(a))
 # string
 print(b)
 # inteiro
