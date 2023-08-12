@@ -17,3 +17,5 @@ objeto1.quarto = 1
  
 print(objeto1.cor)
 
+
+
