@@ -6,8 +6,6 @@ class minhaCasa: #"class" para indicar a criação de uma classe, seguida do nom
     def quartos(self, quarto):
          self.quarto = quarto
 
-
-
 # Os atributos e os métodos de uma classe podem ser acessados pelo objeto, 
 # colocando o nome deste seguido de ponto; 
 
@@ -16,6 +14,3 @@ objeto1.cor = "cobre"
 objeto1.quarto = 1
  
 print(objeto1.cor)
-
-
-
