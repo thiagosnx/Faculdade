@@ -17,7 +17,7 @@ dataFrame = {
     'Fare': [7.2500, 71.2833, 7.9250, 53.1000, 8.0500]
 }
 df_titanic = pd.DataFrame(dataFrame)
-# print(df_titanic)
+print(df_titanic)
 
 '''Para selecionar uma coluna usa-se a sintaxe: meu_df['coluna']'''
 print(df_titanic['Age'])
