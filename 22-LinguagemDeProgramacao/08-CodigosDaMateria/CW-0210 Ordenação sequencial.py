@@ -14,3 +14,4 @@ numeros = [4, 5, 2, 3, 1]
 print("Lista original:", numeros)
 numeros_ordenados = ordenacao_sequencial(numeros.copy())
 print("Lista ordenada:", numeros_ordenados)
+

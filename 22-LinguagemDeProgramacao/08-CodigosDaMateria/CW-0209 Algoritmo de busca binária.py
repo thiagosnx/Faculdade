@@ -2,32 +2,25 @@
 # A primeira grande diferença entre o algoritmo de busca linear e o algoritmo
 # de busca binária é que neste os valores precisam estar ordenados
 
-'''A lógica é a seguinte:
-
-1 - Encontra o item no meio da sequência.
-2 - Se o valor procurado for igual ao item do meio, a busca encerra.
-3 - Se não, verifica se o valor buscado é maior ou menor que o valor central.
-4 - Se for maior, então a busca acontecerá na metade superior da sequência (a inferior é descartada), se não for maior, a busca acontecerá na metade inferior da sequência (a superior é descartada).
-5 - Repete os passos: 1, 2, 3, 4.'''
-
 def busca_binaria(lista, elemento):
         minimo = 0 
         maximo = len(lista)-1
         encontrado = False
     
         while minimo <= maximo and not encontrado:
-            meio_lista = (minimo + maximo)//2
+            meio_lista = (minimo + maximo)//2        # Encontra o item no meio da sequência.
             print(meio_lista)
-            if lista[meio_lista] == elemento:
+            if lista[meio_lista] == elemento:        # Se o valor for igual ao item do meio, a busca encerra.
                 encontrado = True
             else:
-                if elemento < lista[meio_lista]:
+                if elemento < lista[meio_lista]:     # verifica se o valor é maior ou menor que o valor central
                     maximo = meio_lista-1
                     print(maximo)
                 else:
                     minimo = meio_lista+1
                     print(minimo)
-                    
+            # Se for maior, então a busca acontecerá na metade superior da sequência (a inferior é descartada)
+            # Se não for maior, a busca acontecerá na metade inferior da sequência (a superior é descartada).
         return encontrado
     
 testelista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
