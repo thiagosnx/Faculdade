@@ -1,5 +1,6 @@
 # Estruturas de repetição comando for 
 
-contagem = 0
-for contagem in range(1,10):
+for contagem in range(0,   # Numero que inicia a contagem
+                      11,  # Termina a contagem (ele para 1 antes)
+                      2):  # Condição para pular de 2 em 2
     print(contagem)

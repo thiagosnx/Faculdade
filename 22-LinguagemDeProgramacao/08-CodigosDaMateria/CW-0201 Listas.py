@@ -5,18 +5,18 @@
 vogais1 = ['a', 'e', 'i', 'o', 'u']
 
 # A lista pode ser criada sem nenhum elemento, e a inserção pode ser feita posteriormente:
-vogais2 = []
-vogais2.append('a')
-vogais2.append('e')
-vogais2.append('i')
-vogais2.append('o')
-vogais2.append('u')
-
+vogais2 = []            # Cria lista Vazia
+vogais2.append('A')     # Adiciona A no fim da lista
+vogais2.append('E')     # Adiciona E no fim da lista
+vogais2.append('I')     # Adiciona I no fim da lista
+vogais2.append('O')     # Adiciona O no fim da lista
+vogais2.append('U')     # Adiciona U no fim da lista
 
 #Para acessar o valor guardado em uma lista, basta indicar o nome da variável e, 
 # entre colchetes, a posição do elemento, ou a fatia (slice) de valores que se deseja:
 
-vogais2[3]
-vogais2[3:]
+print(vogais2)      # Mostra a lista completa
+print(vogais2[2])   # Mostra o item 2 da lista
+print(vogais2[:2])  # Mostra a lista até o item 2
+print(vogais2[2:])  # Mostra a partir do item 2
 
-print(vogais2)

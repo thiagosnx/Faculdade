@@ -1,15 +1,15 @@
 # Variáveis e tipos básicos -------------------------------------------------------
-a = "olá"
-b = 10
-c = 3.141592
+a = "Tudo Corno"
+b = 69
+c = 24.69
 d = False
 
-print(type(a))
-# string
+print(a)
+# string     - Tudo o que for para ser usado como texto ex: 'Tudo corno!'
 print(b)
-# inteiro
+# inteiro    - Qualquer numero inteiro ex: 69
 print(c)
-# float
-print(d) # ou True
-# Boolean
+# float      - Qualquer numero com ponto ex: 24.69
+print(d) 
+# Boolean    - Verdadeiro ou Falso ex: suas amigas
 
