@@ -6,12 +6,10 @@
 
 # Em Python, uma das maneiras de criar um objeto do tipo dicionário é colocando as chaves e os valores entre estas, conforme código a seguir:
 cadastro = {'nome': 'João', 'idade': 30, 'cidade': 'São Paulo'}
+print(cadastro)             # Mostra o dicionario completo
 
-# Para acessar um valor em um dicionário, basta digitar:
-# nome_dicionario[chave]
-print(cadastro['nome'])
-
-# E, para atribuir um novo valor, use:
-# nome_dicionario[chave] = novo_valor
-cadastro['nome'] = 'Rapha'
-print(cadastro['nome'])
+print(cadastro['nome'])     # Mostra um valor do dicionario
+                            # nome_dicionario[chave] = novo_valor
+                            
+cadastro['nome'] = 'Rapha'  # Atribuir um novo valor, em nome
+print(cadastro)             # Como fica depois da alteração
