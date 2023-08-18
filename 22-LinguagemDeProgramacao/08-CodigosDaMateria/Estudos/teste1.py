@@ -19,13 +19,12 @@
 
 import pandas
 
-
-#PosiçãoX= 0    1    2    Posição Y
+#Posição-X 0    1    2    Posição-Y
 matriz= [['1', '2', '3'],# 0
          ['4', '5', '6'],# 1
          ['7', '8', '9'],# 2
          ['0', ' ', ' ']]# 3
 
-
 df_matriz = pandas.DataFrame(matriz)
-print(df_matriz[0][3])  # imprime o valor encontrado na orientação X/Y       
+print(df_matriz[2][1])  # imprime o valor encontrado na orientação X / Y
+print(df_matriz[2][2])  # imprime o valor encontrado na orientação X / Y

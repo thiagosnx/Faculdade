@@ -1,7 +1,7 @@
 Jogadores = [
-    {'nomes': 'Jogador1', 'partidas': 3, 'gols': [2, 4, 5]},
-    {'nomes': 'Jogador2', 'partidas': 5, 'gols': [5, 8, 0]},
-    {'nomes': 'Jogador3', 'partidas': 6, 'gols': [1, 2, 1]}
+    {'nomes': 'Rapha', 'partidas': 3, 'gols': [1, 0, 1]},
+    {'nomes': 'Tiago', 'partidas': 5, 'gols': [5, 8, 7, 4, 9]},
+    {'nomes': 'Ronald', 'partidas': 2, 'gols': [23, 103]}
 ]
 
 for jogador in Jogadores:

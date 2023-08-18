@@ -6,12 +6,13 @@ import time
 import locale
 import keyboard
 
+
 locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
 
 def enviar_mensagem_whatsapp(numero, mensagem):
     kit.sendwhatmsg_instantly(numero, mensagem) 
 
-arquivo_excel = 'dados.xlsx'
+arquivo_excel = 'wpp.xlsx'
 wb = openpyxl.load_workbook(arquivo_excel)
 planilha = wb.active
 
