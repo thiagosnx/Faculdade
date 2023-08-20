@@ -8,10 +8,10 @@ guerra_comecou = input("Estamos em GUERRA? (sim ou nao)\n\n: ")
 humano = 'Homem'
 orientacao = 'Hetero'
 
-if guerra_comecou == 'sim' or 's':
+if guerra_comecou == 'sim':
     humano = 'Mulher'
     orientacao = 'Lésbica'
-    nome += 'a Kinder-Ovo'
+    nome += 'a Raiana'
     print(f"\nOie a todes chamo {nome}")
     print(f"Agora me identifico {humano} e sou {orientacao}\n")
 else:

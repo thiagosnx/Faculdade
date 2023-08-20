@@ -17,3 +17,4 @@ for nome, idade, qi in zip(dic['nome'], dic['idade'], dic['Q.I']):
         print(f"Olá {nome}, seu Q.I é de {qi}, o que indica que tu estás lascado, meu amigo...\n")
     else:
         print(f"Olá {nome}, seu Q.I é de {qi}, o que indica que você tem futuro!\n")
+
