@@ -1,4 +1,5 @@
 # Estruturas de repetição comando while
+# O While executa o loop até que a condição seja atendida no nosso exemplo até chegar no 8
 
 contagem = 0                      # Definindo valor
 while(contagem < 8):              # Repete enquanto o valor for menor que 8

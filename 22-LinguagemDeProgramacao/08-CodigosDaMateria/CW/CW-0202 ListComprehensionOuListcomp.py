@@ -6,6 +6,8 @@
 list = [1*x+1 for x in range(10)]  # Essa merda doida aqui.
 print(f' Lista Modelo 1 - {list}')
 
+#--------------------------------------------------------------------------
+
 listy = []
 for y in range(1,11):              # Faz Igual essa merda aqui mas resumido
     1 * y + 1
