@@ -1,35 +1,16 @@
-class Calculadora:
-    def soma(self, x, y):
-        v = x + y
-        return v
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+        
+    def verificar_adulto(self):
+        if self.idade >= 18:
+            return f"{self.nome} é maior de idade."
+        else:
+            return f"{self.nome} ainda não é maior de idade."
 
-    def subtrair(self, x, y):
-        r = x - y
-        return r
+pessoa1 = Pessoa("Alice", 25) # Criando uma instância da classe Pessoa
+pessoa2 = Pessoa("Bob", 17)   # Criando outra instância da classe Pessoa
 
-    def dividir(self, x, y):
-        r = x / y
-        return r
-
-    def multiplicar(self, x, y):
-        r = x * y
-        return r
-
-
-calculadora = Calculadora()
-
-a = int(input("Digite um valor para a: "))
-b = int(input("Digite um valor para b: "))
-
-s = calculadora.soma(a, b)
-print(f'A soma de {a} + {b} é igual a {s}')
-
-s1 = calculadora.subtrair(a, b)
-print(f'A subtração de {a} - {b} é igual a {s1}')
-
-s2 = calculadora.dividir(a, b)
-print(f'A divisão de {a} / {b} é igual a {s2}')
-
-s3 = calculadora.multiplicar(a, b)
-print(f'A multiplicação de {a} * {b} é igual a {s3}')
-
+print(pessoa1.verificar_adulto())  # Verificando se a pessoa é maior de idade usando o método verificar_adulto
+print(pessoa2.verificar_adulto())  
