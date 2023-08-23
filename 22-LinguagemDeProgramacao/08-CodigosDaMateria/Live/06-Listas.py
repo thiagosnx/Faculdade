@@ -20,3 +20,34 @@ print(vogais2[2])   # Mostra o item 2 da lista
 print(vogais2[:2])  # Mostra a lista até o item 2
 print(vogais2[2:])  # Mostra a partir do item 2
 
+#-----------------------------------------------------------------------------
+
+#Inserindo itens no fim da lista:
+lista = [1, 2, 3]
+lista.append(4) #append(): Adiciona um elemento ao final da lista.
+print(lista)  # Fica: [1, 2, 3, 4]
+
+# Inserindo Itens
+lista = [1, 2, 3]
+lista.insert(1, 4) # insert(): Insere um elemento em uma posição específica na lista.
+print(lista)  # Fica: [1, 4, 2, 3]
+
+#Apagando itens:
+lista = [1, 2, 3, 2]
+lista.remove(2) # remove(): Remove a primeira ocorrência de um elemento específico.
+print(lista)  # Fica: [1, 3, 2]
+
+lista = [1, 2, 3]
+elemento = lista.pop(1) # pop(): Remove e retorna o elemento em uma posição específica.
+print(elemento)  # Fica: 2
+print(lista)     # Fica: [1, 3]
+
+#Substituindo itens:
+lista = [1, 2, 3, 4]
+lista[2] = 5  # A substituição de itens em uma lista geralmente envolve a atribuição direta a uma posição específica.
+print(lista)  # Fica: [1, 2, 5, 4]
+
+#Apagando o ultimo item
+lista = [1, 2, 3, 4]
+lista.pop()
+print(lista) # Fica: [1, 2, 3]
