@@ -1,4 +1,5 @@
 import sqlite3
+import os as os 
 
 def criar_registro(conexao, curso, alunos):  # Função para criar registro no banco de dados
     cursor = conexao.cursor()
@@ -27,6 +28,7 @@ def deletar_registro(conexao, id): # Função para deletar registro no bando de 
 
 conexao = sqlite3.connect('reprovados.db')
 
+os.system("cls")
 while True:
     print("\nOperações CRUD: (1)Create, (2)Read, (3)Update, (4)Delete")
     print("1. C - Criar registro")
@@ -40,16 +42,23 @@ while True:
     if escolha == '1':
         curso = input("Digite o curso: ")
         alunos = input("Digite os alunos: ")
+        os.system("cls")
         criar_registro(conexao, curso, alunos)
     elif escolha == '2':
+        os.system("cls")
         listar_registros(conexao)
     elif escolha == '3':
         id = input("Digite o ID do registro que deseja atualizar: ")
         novo_curso = input("Digite o novo curso: ")
         novos_alunos = input("Digite os novos alunos: ")
+        os.system("cls")
         atualizar_registro(conexao, id, novo_curso, novos_alunos)
     elif escolha == '4':
+        os.system("cls")
+        listar_registros(conexao)
+        print('')
         id = input("Digite o ID do registro que deseja deletar: ")
+        os.system("cls")
         deletar_registro(conexao, id)
     elif escolha == '5':
         break
