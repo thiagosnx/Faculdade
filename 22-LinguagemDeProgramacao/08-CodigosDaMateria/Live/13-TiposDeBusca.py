@@ -78,3 +78,4 @@ def quick_sort(arr):
     meio = [x for x in arr if x == pivo]
     direita = [x for x in arr if x > pivo]
     return quick_sort(esquerda) + meio + quick_sort(direita)
+

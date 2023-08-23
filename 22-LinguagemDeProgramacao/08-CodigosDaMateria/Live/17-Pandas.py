@@ -10,16 +10,38 @@ As duas principais estruturas de dados fornecidas pelo pandas são: '''
 
 # Series: É uma estrutura unidimensional que representa uma única coluna de dados. 
 # Uma Series pode ser vista como uma lista indexada.
+
 import pandas as pd
 
-data = { # Criar um DataFrame
-    'Nome': ['Alice', 'Raiana', 'Carol'],
-    'Idade': [25, 30, 28],
-    'Curso': ['Engenharia', 'ADS', 'Economia']
-}
+# Exemplo de DataFrame
+data = {'Nome': ['Rapha', 'Naty', 'Tiago'],
+        'Idade': [25, 30, 22]}
 
 df = pd.DataFrame(data)
 print("DataFrame:\n",(df))
 
-idade_maior_que_25 = df[df['Idade'] > 25] # Filtrar o DataFrame por idade
-print("\nPessoas com idade maior que 25:",(idade_maior_que_25)) # Exibir o DataFrame filtrado
+# Acessando uma coluna inteira
+coluna_nome = df['Nome']
+print(coluna_nome)
+
+# Acessando um valor específico
+valor_idade = df.at[1, 'Idade']
+print(valor_idade)
+
+# Acessando uma linha inteira
+linha_0 = df.iloc[0]
+print(linha_0)
+
+# Acessando um valor específico usando índices numéricos
+valor_nome_2 = df.iloc[2, 0]
+print(valor_nome_2)
+
+# Acessando um valor específico por rótulos de índice
+valor_nome_Rapha = df.loc[0, 'Nome']
+print(valor_nome_Rapha)
+
+# Substituindo o nome "Alice" por "Eva"
+novo_nome = 'Ezequiel'
+df.loc[df['Nome'] == 'Rapha', 'Nome'] = novo_nome
+
+print("DataFrame:\n",(df))
