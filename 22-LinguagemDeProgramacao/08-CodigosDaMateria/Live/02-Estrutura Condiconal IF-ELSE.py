@@ -9,3 +9,4 @@ elif login == "naty" and senha == "naty":  # OU SE atender essa condição irá 
     print("Bem-vinda Naty")
 else:                                      # SE NAO atender nenhuma vai exibir Login Falhou
     print("Login falhou!")
+    
