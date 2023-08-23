@@ -25,8 +25,8 @@ plt.xlabel("Categorias")
 plt.ylabel("Valores")
 plt.show()
 
-labels = ['Maçã', 'Banana', 'Laranja', 'Uva']  # Exemplo de gráfico de pizza
-sizes = [30, 25, 20, 25]
+labels = ['Gordo', 'Feio', 'Olheiras']  # Exemplo de gráfico de pizza
+sizes = [50, 20, 30]
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
 plt.axis('equal')
 plt.title("Gráfico de Pizza")
