@@ -21,6 +21,8 @@ print(vogais2[:2])  # Mostra a lista até o item 2
 print(vogais2[2:])  # Mostra a partir do item 2
 
 #-----------------------------------------------------------------------------
+# MANIPULANDO AS LISTAS ------------------------------------------------------
+#-----------------------------------------------------------------------------
 
 #Inserindo itens no fim da lista:
 lista = [1, 2, 3]
@@ -33,12 +35,12 @@ lista.insert(1, 4) # insert(): Insere um elemento em uma posição específica n
 print(lista)  # Fica: [1, 4, 2, 3]
 
 #Apagando itens:
-lista = [1, 2, 3, 2]
+lista = [1, 2, 3, 4]
 lista.remove(2) # remove(): Remove a primeira ocorrência de um elemento específico.
-print(lista)  # Fica: [1, 3, 2]
+print(lista)  # Fica: [1, 3, 4]
 
 lista = [1, 2, 3]
-elemento = lista.pop(1) # pop(): Remove e retorna o elemento em uma posição específica.
+elemento = lista.pop(1) # pop(): Remove o item e o armazena na variavel elemento.
 print(elemento)  # Fica: 2
 print(lista)     # Fica: [1, 3]
 
@@ -51,3 +53,4 @@ print(lista)  # Fica: [1, 2, 5, 4]
 lista = [1, 2, 3, 4]
 lista.pop()
 print(lista) # Fica: [1, 2, 3]
+
