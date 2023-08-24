@@ -7,7 +7,7 @@ def worker():
     
     i = 0
 
-    for i in range(1000000):
+    for i in range(10):
         i = i + 1
 
         valor_final = datetime.now()

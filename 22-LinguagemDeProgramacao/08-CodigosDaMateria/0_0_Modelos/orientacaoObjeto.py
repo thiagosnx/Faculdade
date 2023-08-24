@@ -14,3 +14,4 @@ pessoa2 = Pessoa("Bob", 17)   # Criando outra instância da classe Pessoa
 
 print(pessoa1.verificar_adulto())  # Verificando se a pessoa é maior de idade usando o método verificar_adulto
 print(pessoa2.verificar_adulto())  
+
