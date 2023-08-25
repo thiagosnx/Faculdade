@@ -45,3 +45,13 @@ novo_nome = 'Ezequiel'
 df.loc[df['Nome'] == 'Rapha', 'Nome'] = novo_nome
 
 print("DataFrame:\n",(df))
+
+#-----------------------------------------------------
+# Tipos de dados que podem ser extraidos de uma series
+
+series_dados = pd.Series([10.2, -1, None, 15, 23.4])
+print("Quantidade de linhas = ", series_dados.shape) # Retorna uma tupla com o numero de linhas
+print("Tipo de dados = ", series_dados.dtype)# Retorna o tipo de dados, se for misto será object
+print("Os valores sao unicos? ", series_dados.is_unique)# Verifica se nao sao dados multiplos
+print("Existem valores nulos?", series_dados.hasnans)# Verifica se há valores nulos
+print("Quantos valores existem?", series_dados.count())# Conta a quantidade de valores

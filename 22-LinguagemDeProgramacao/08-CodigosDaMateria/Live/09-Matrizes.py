@@ -1,9 +1,12 @@
 import numpy as np  # precisa instalar no console - pip install numpy
 
 notas_alunos = np.array([     # Criando uma matriz de notas de alunos (3 alunos e 4 disciplinas)
-    [5, 2, 7, 8],  # Notas do Aluno 1 (nas disciplinas 1, 2, 3 e 4)
-    [0, 8, 7, 6],  # Notas do Aluno 2 (nas disciplinas 1, 2, 3 e 4)
-    [7, 5, 8, 2]   # Notas do Aluno 3 (nas disciplinas 1, 2, 3 e 4)
+    
+    
+  #  Nota1, Nota2, Nota3
+     [5,    2,      7],  #Aluno 1 (nas disciplinas 1, 2, 3)
+     [0,    8,      7],  #Aluno 2 (nas disciplinas 1, 2, 3)
+     [7,    5,      8]   #Aluno 3 (nas disciplinas 1, 2, 3)
 ])
 
 nota_aluno_2_disciplina_3 = notas_alunos[1][2]  #  Acessando Nota do Aluno 2 na Disciplina 3
