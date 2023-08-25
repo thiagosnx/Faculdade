@@ -52,6 +52,14 @@ print("DataFrame:\n",(df))
 series_dados = pd.Series([10.2, -1, None, 15, 23.4])
 print("Quantidade de linhas = ", series_dados.shape) # Retorna uma tupla com o numero de linhas
 print("Tipo de dados = ", series_dados.dtype)# Retorna o tipo de dados, se for misto será object
-print("Os valores sao unicos? ", series_dados.is_unique)# Verifica se nao sao dados multiplos
+print("Os valores sao unicos? ", series_dados.is_unique)# Verifica se nao tem duplicidade
 print("Existem valores nulos?", series_dados.hasnans)# Verifica se há valores nulos
 print("Quantos valores existem?", series_dados.count())# Conta a quantidade de valores
+#-----------------------------------------------------
+# Tratando funções matematicas e estatisticas
+print("Qual o menor valor? ", series_dados.min())# Extrai o menor valos
+print("Qual o maior valor? ", series_dados.max())# Extrai o maior valor
+print("Qual a média dos valores? ", series_dados.mean())# Extrai a média
+print("Qual o desvio padrao? ", series_dados.std())# Extrai o desvio padrao
+print("Qual a mediana? ", series_dados.median())# Extrai a mediana
+print("\nResumo\n", series_dados.describe())# Exibe o resumo sobre os dados
