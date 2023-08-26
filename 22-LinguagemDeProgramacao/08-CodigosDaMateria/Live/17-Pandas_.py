@@ -38,7 +38,7 @@ print("DataFrame:\n",(df))
 
 #-----------------------------------------------------
 # Tipos de dados que podem ser extraidos de uma series
-
+print("\nModelos para extrair dados se Series\n")
 series_dados = pd.Series([10.2, -1, None, 15, 23.4])
 print("Quantidade de linhas = ", series_dados.shape)    # Retorna uma tupla com o numero de linhas
 print("Tipo de dados = ", series_dados.dtype)           # Retorna o tipo de dados, se for misto será object
