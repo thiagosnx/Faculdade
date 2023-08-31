@@ -1,7 +1,7 @@
 # Para procurar elementos em uma lista por meio de algoritmo de busca sequencial, 
 # é necessário percorrer todos os elementos da lista até encontrar o elemento procurado. 
 # Para isso, é realizada uma comparação do valor do elemento que se deseja encontrar
-# na lista com o valor de cada posição na lista.
+# na lista com o valor de cada posição na lista caso nao encontre retorna n -1.
 
 def busca_sequencial(lista, elemento):
     pos = 0 
