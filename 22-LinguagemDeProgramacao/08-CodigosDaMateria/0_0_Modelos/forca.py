@@ -70,7 +70,7 @@ def desenhar_forca(tentativas_restantes):
     print(etapas[6 - tentativas_restantes])
 
 def jogo_da_forca():
-    palavra = "mostro"
+    palavra = "Maryah"
     letras_adivinhadas = []
     tentativas_restantes = 6
 

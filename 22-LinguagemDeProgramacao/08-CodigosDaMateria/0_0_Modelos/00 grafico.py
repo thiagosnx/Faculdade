@@ -17,7 +17,7 @@ def draw_pentagram(size):
         rgb = colorsys.hsv_to_rgb(hue, 1.0, 1.0)
         turtle.pencolor(rgb)
         turtle.forward(size)
-        turtle.right(140)
+        turtle.right(144)
 
 turtle.speed(100)
 pentagram_size = 350

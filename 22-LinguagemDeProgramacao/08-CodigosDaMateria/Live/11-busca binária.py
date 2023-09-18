@@ -24,6 +24,8 @@ def busca_binaria(lista, elemento):
         return encontrado
     
 testelista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+
 print(busca_binaria(testelista, 15))
 
 # Na linha 10, temos a estrutura de repetição “while”, 

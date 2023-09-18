@@ -46,7 +46,7 @@ def comando_voz_usuario(comando):
         print(f' Agora é: {hora}')
 
     elif 'toca' in comando:
-        musica = comando.replace('toque','')
+        musica = comando.replace('toca','')
         resultado = pywhatkit.playonyt(musica)
         maquina.say('Tocando música')
         maquina.runAndWait()
