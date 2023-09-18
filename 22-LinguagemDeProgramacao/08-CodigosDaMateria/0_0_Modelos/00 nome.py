@@ -10,3 +10,4 @@ def nomes():
         print(f"{nome}, Não ligo para voce")
 
 nomes()
+
