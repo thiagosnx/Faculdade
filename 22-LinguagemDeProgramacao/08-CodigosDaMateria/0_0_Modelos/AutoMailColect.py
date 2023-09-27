@@ -10,11 +10,11 @@ from datetime import datetime
 from dateutil import parser
 
 # Buscas no título e corpo do email e tempo de intervalo
-palavra_titulo_en = "PIX deposit on Bet Bra"
-palavra_titulo_br = "Depósito PIX no Bet Bra"
+palavra_titulo_en = "PIX deposit"
+palavra_titulo_br = "Depósito PIX"
 
-palavra_user_en = "Bra account username origin:"
-palavra_user_br = "Nome de usuário Bet Bra de origem:"
+palavra_user_en = "account username origin:"
+palavra_user_br = "Nome de usuário de origem:"
 
 palavra_valor_en = "Deposit amount:"
 palavra_valor_br = "Quantia depositada:"
@@ -50,7 +50,7 @@ if win32com.client.Dispatch("WScript.Shell").RegRead("HKLM\SOFTWARE\Microsoft\Wi
         else:
             wb = Workbook()
             ws = wb.active
-            ws.append(['OP', 'Data', 'Username(Copiar igual da BetBra)', 'Ação(DEP/Withdraw)', 'Valor', 'Descrição', 'Observação Extra'])
+            ws.append(['OP', 'Data', 'Username', 'Ação(DEP/Withdraw)', 'Valor', 'Descrição', 'Observação Extra'])
             for cell in ws['D1:E1']:
                 for column_cell in cell:
                     column_cell.fill = PatternFill(start_color='93c47d', end_color='93c47d', fill_type='solid')

@@ -17,7 +17,7 @@ def calcular_imc():
     elif imc < 39.99:
         classificacao = "Obesidade Grau II"
     else:
-        classificacao = "Obesidade Grau III"
+        classificacao = "Mais gordo que o Rapha"
     
     print(f"{nome}, seu IMC é de {imc:.2f} e a classificação do IMC é '{classificacao}'.")
 
@@ -31,8 +31,8 @@ def ver_tabela_imc():
     print("Obesidade Grau III: IMC >= 39.9")
 
 while True:
-    print("♥ - "*10,"\n\n")
-    print("♥ ♥  Bora calcular as GORDURENHAS  ♥ ♥\n\n")
+    print("♥ - "*10,"\n")
+    print("-     Bora calcular as GORDURENHAS    ♥\n")
     print("♥ - "*10,"\n")
     print("Menu:\n")
     print("1 - Calcular IMC")
